@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+header {
+    background-image: linear-gradient(to top, rgb(105, 187, 105), rgb(2, 182, 2));
+    height: 200px;
+    
+}
+body {
+    background-color: beige;
+}
+header h1{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+    color: white;
+}
+header p {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.858);
+}
+nav {
+    margin-top: 30px;
+    font-size: 20px;
+}
+nav a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.797);
+    font-weight: bold;
+}
+nav a:hover {
+    background-color: rgba(0, 128, 0, 0.444);
+    border-radius: 5px;
+    padding: 8px;
+}
+main {
+    background-color: white;
+    width: 1500px;
+    margin: auto;
+    padding: 20px;
+    text-align: justify;
+}
+article p {
+    margin: 20px 0px 20px 0px;  
+}
+#primeiraversao {
+    margin-bottom: 20px;
+}
+#imagemrobo {
+    margin: 20px 0px 20px 0px;
+}
+#novomascote {
+    margin-bottom: 20px;
+}
+#fotoiriana {
+    padding: 20px 0px 20px 0px ;
+}

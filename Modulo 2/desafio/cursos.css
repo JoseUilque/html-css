@@ -1,0 +1,19 @@
+body {
+    background-image: linear-gradient(to top, #005A5B, #02A676);
+    height: 100vh;
+}
+main {
+    background-color: #005A5B;
+    text-align: center;
+    width: 900px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 15px #003840;
+}
+h1 {
+    text-align: center;
+}
+p {
+    
+}

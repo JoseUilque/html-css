@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body {
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1#titulo {
+    width: 500px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(138, 237, 138), white );
+    margin: auto;
+    text-align: center;
+    box-shadow: 5px 5px 10px black;
+    
+}
+span.teste {
+    color: brown;
+}

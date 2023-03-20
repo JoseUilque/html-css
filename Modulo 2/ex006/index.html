@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(159, 158, 158);
+        }
+        header {
+            background-color: white;
+            padding: 15px 10px 2px 10px;
+            margin-bottom: 10px;
+            
+        }
+        #linkmenu {
+            background-color: rgb(67, 67, 67);
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            box-shadow: 10px 10px 10px black;
+            
+        }
+        .ancoralinks {
+            text-decoration: none;
+            color: white;
+            margin-left: 50px;
+        }
+        main {
+            background-color: white;
+            padding: 30px 10px 15px 10px;
+        }
+        #secao {
+            background-color: rgb(198, 197, 197);
+            height: 200px;
+        }
+        #par2secao {
+            background-color: rgb(122, 121, 121);
+            font-weight: bolder;
+        }
+        footer {
+            background-color: rgb(28, 28, 28);
+            height: 50px;
+            justify-content: center;
+            display: flex;
+        }
+        footer > p {
+            color: white;
+        }
+        #titulo {
+            display: flex;
+            justify-content: center;
+            place-items: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Meu Site</h1>
+        <p id="linkmenu">
+            <a href="#" class="ancoralinks">Link</a>
+            <a href="#" class="ancoralinks">Link</a>
+            <a href="#" class="ancoralinks">Link</a>
+            <a href="#" class="ancoralinks">Link</a>
+            <a href="#" class="ancoralinks">Link</a>
+        </p>
+    </header>
+    <main>
+        <p id="par1">Esportes Política Tecnologias</p>
+            <section id="secao">
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium hic dolor dolorem, natus dicta amet illum ducimus nihil eligendi magni libero ipsum ullam esse saepe et vitae aliquid provident adipisci! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque, beatae vitae id ipsum et quisquam ad assumenda dolor alias iure enim eum, pariatur sed quod officia doloribus blanditiis deleniti qui.</p>
+                <p id="par2secao">
+                    Artigo escrito por José da Silva
+                </p>
+            </section>
+    </main>
+    <footer><p>Desenvolvido por José</p></footer>
+    
+</body>
+</html>
