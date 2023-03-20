@@ -84,8 +84,8 @@ main h2 {
     background-image: linear-gradient(to right, var(--cor2), transparent);
 }
 main img {
-    width: 100%;
-    padding-right: 10px;
+    width: 96%;
+    
 }
 main p {
     margin: 15px 0px;
