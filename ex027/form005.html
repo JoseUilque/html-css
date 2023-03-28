@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro.js" method="get">
+
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <p>
+                <input type="checkbox" name="basq" id="ibasq"><label for="ibasq">Basquete</label>
+                <input type="checkbox" name="futbol" id="ifutbol">Futebol
+                <input type="checkbox" name="natacao" id="inatacao">Natação
+                <input type="checkbox" name="tenis" id="itenis">Tênis
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Apagar">
+        </p>
+        <p>
+            <label for="icor">Cor: </label>
+            <input type="color" name="cor" id="icor">
+        </p>
+        <p>
+            <label for="inivel">Nível de Satísfação</label>
+            <input type="range" name="satis" id="inivel">
+        </p>
+    </form>
+    <form action="cadastro.js" method="get">
+        <p>
+            <label for="iest">Estado</label>
+            <select name="estado" id="iest">
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+            </select>
+        </p>
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="profissao" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option value="ADM">Administrador</option>
+                <option value="DEv">Desenvolvedor</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="inum">Número</label>
+            <input type="number" name="numb" id="inum" list="listnum">
+            <datalist id="listnum">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+            </datalist>
+        </p>
+        <textarea name="tex" id="itex" cols="100" rows="10"></textarea>
+        
+    </form>
+    <form action="cadastro.js">
+        <p>
+            <label for="n1">Número 1</label>
+            <input type="number" name="in1" id="n1">
+            <br> <label for="n2">Número 2</label>
+            <input type="number" name="in2" id="n2">
+        </p>
+        <p>
+            <output name="soma" id="isoma">0</output>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Apagar">
+        </p>
+
+    </form>
+</body>
+</html>
