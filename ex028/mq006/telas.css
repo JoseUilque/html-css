@@ -1,0 +1,30 @@
+
+
+@media screen and (min-width: 768px) {
+    
+    #botao {
+        display: none;
+    }
+    
+    nav {
+        display: block;
+    }
+
+    nav a {
+        display: inline-block;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+        background-color: darkolivegreen;
+        transition-duration: .5s;
+    }
+    nav a:hover {
+        background-color: rgba(85, 107, 47, 0.412);
+    }
+    main {
+        width: 700px;
+    }
+ 
+}
